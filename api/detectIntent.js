@@ -1,12 +1,13 @@
 const express = require('express');
 const { SessionsClient } = require('dialogflow').v2beta1;
+require('dotenv').config();
 
 const app = express();
 app.use(express.json());
 
 const projectId = process.env.DIALOGFLOW_PROJECT_ID;
 const sessionId = process.env.DIALOGFLOW_SESSION_ID;
-const languageCode = process.env.DIALOGFLOW_LANGUAGE_CODE;
+const languageCode = 'es';
 
 const sessionClient = new SessionsClient();
 const sessionPath = sessionClient.sessionPath(projectId, sessionId);
@@ -17,6 +18,7 @@ app.post('/detectIntent', async (req, res) => {
   const request = {
     session: sessionPath,
     queryInput: queryInput,
+    languageCode: languageCode, // Actualizamos el código de idioma a "es"
   };
 
   try {
