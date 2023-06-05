@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "acaiagent-esga",
+    "private_key_id": "907208ad628a464022cd28a777a762c2e8f18f75",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfsbTbhreNYThL\n824Kq/iG90op5MpGqrzrvfFrjnD/3EW1w/LULi6hlBUtq6MHvNlHGxnUx7rCkIb1\nHtUc6PwfiROxMdiC/2328nwFaKJn7iRgvkAQtL03GcVFFzAtpnRFXdPdkZ2YcbE/\nIYWOKY6hYxWHFGPzyzwrb99z1T18fHULpGAPLadPiV3kPVzB3eri52FNnxDrK178\nlAihEZc+eUFGBsguxNIu8kRJVjnd/VPkjWSOGj11RIkgmHoWXcf5+/n2ymiapjLr\n4cy67x7xU3AJdspcMrmxNKfVdDT7GkK57eMzBvvbJJr122L3z16uiRozBOsCp78p\nOsol8FRHAgMBAAECggEACEjeMeMwMrd1cxqo6kXd00g4iIsSRfVWc3fgoRZXCQk9\n0hi+I/plFiB6rrfuNpmMuOpACQ/JbIgXXd/hp+U/ff60EM2PzAo5wGBqrdvNaAJh\n4CArrz+CYnzWplOdhsZ+nkyptBY+7ls6yhb4ibNWtpNwEKvb2wOdghGHbRRqTcBP\nu4hrQ/CThJxfMaLu75yhe6jQa8Hl+5Mw0RhZDv8TZOu63N5sL4LITroaxrvemqhi\nNRsBbnDrc3l7n9cC1iSuOW29lEL0/26XrGqBRB51OkjhsXfzlG8K2vUPrhi5WG8t\n+/gryzs1KeqNhrE0ZmeV4Oficmp8KdmrWyt3Hh0UAQKBgQDxCguN/s1dUlhvypgi\nvAcEcyfxbEW/KLlodWatvXbXLWyuCalSwXveSfzccfgmEqtW4U4wlKjed4WiQKbl\nOPV3qc9YF+O2R7B9ek3OBlvH+8Q9XZ/A/Lxca9nlO3+N25KtNDEIhitodXwkvhay\ndOzkBeFSnHOtJ6ZXLREIILM+BwKBgQDtlA8+c1370KbTT0DtI9bI37oc4JkX+YEG\ncfXGysiRaAzER7Rss21BBklJYInlistQz5CHL7PUUW8B55jfP4Eqiv0l9nheCFRO\nL7P3FntnQAK2Y5vHGKWFj516NdeEaAncPFsAdG4ucq6Ygyqg27w5+WMUooj0KLE0\ngsjSDeinwQKBgDgtKSg83EwFpwrW4sIlpFULKaIAo/i7WwrXYcjYQVxA//VH1yis\nY1wZTk9qWHU3IKus8vYrj3fZz1FTVBJURhFPiD11w+J1rtJvsLZ1kOp46PGMYnEt\n9hBsKmpchYvgQr0PTuY3ruI3j2lYzB1nVtaF8E+6mtMeTIxAupl0VZH9AoGAbj41\nMKqCIxa4QvfUzfXCdiXzC/FguRJLP/1jqiJxHaAlxHLtkz9TZEgRe94zPvO/0rju\nfPyyusQq+bxJYNbsDhy+yX3sbt34mOtj3DVvgALg/1eLcsDKFgcFcS9I2aUZZjwP\nkk90zVLkF9tNzaUJW/GQe4PMf1femtpRa7+OhUECgYEAotfRUCQIhxrG4JJsFNoo\nOhT7ALgdPaIeVN9L0HSEu81kSUg7cAxLYoAZLSSScRdDL+kj+jlUqslnx+20litb\nL9LlU10QLdadL1UdElUt03xdNUc7qlIBF5gvyNECQ91q1fzWgJqkkAJoeEZOfNd8\nPe/mH1szyWutm+gdjo3sIQE=\n-----END PRIVATE KEY-----\n",
+    "client_email": "ceuntaserviciodialogflowsama@acaiagent-esga.iam.gserviceaccount.com",
+    "client_id": "105508651672726565769",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ceuntaserviciodialogflowsama%40acaiagent-esga.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
