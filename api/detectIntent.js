@@ -15,7 +15,7 @@ const sessionClient = new SessionsClient();
 const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
 const jsonURL = 'https://raw.githubusercontent.com/joztos/proxyvoice/master/acaiagent-esga-907208ad628a.json';
-const jsonPath = 'acaiagent-esga-907208ad628a.json';
+const jsonPath = './acaiagent-esga-907208ad628a.json'; // Ruta local donde se guardará el archivo JSON descargado
 
 app.post('/detectIntent', async (req, res) => {
   const { queryInput } = req.body;
