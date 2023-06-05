@@ -1,7 +1,5 @@
 {
   "functions": {
-    "api/detectIntent.js": {
-      "runtime": "@vercel/node@14"
-    }
+    "runtime": "vercel-node@16.8.0"
   }
 }
