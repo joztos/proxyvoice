@@ -1,8 +1,7 @@
 {
-    "functions": {
-      "api/detectIntent.js": {
-        "runtime": "nodejs14.x"
-      }
+  "functions": {
+    "api/detectIntent.js": {
+      "runtime": "node@14.x"
     }
   }
-  
+}
