@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "api/detectIntent.js": {
+        "runtime": "nodejs14.x"
+      }
+    }
+  }
+  
