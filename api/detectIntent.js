@@ -5,12 +5,14 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
-const projectId = process.env.DIALOGFLOW_PROJECT_ID;
-const sessionId = process.env.DIALOGFLOW_SESSION_ID;
-const languageCode = 'es';
+const projectId = 'acaiagent-esga';
+const sessionId = 'quickstart-session-id';
+const languageCode = 'es-ES';
 
 const sessionClient = new SessionsClient();
 const sessionPath = sessionClient.sessionPath(projectId, sessionId);
+
+process.env.GOOGLE_APPLICATION_CREDENTIALS = 'https://raw.githubusercontent.com/joztos/proxyvoice/master/acaiagent-esga-907208ad628a.json'; // Ruta del archivo JSON de clave en el repositorio GitHub
 
 app.post('/detectIntent', async (req, res) => {
   const { queryInput } = req.body;
@@ -18,7 +20,6 @@ app.post('/detectIntent', async (req, res) => {
   const request = {
     session: sessionPath,
     queryInput: queryInput,
-    languageCode: languageCode, // Actualizamos el código de idioma a "es"
   };
 
   try {
